@@ -1,5 +1,4 @@
 # 🧬 Word Evolution
-
 A Python-based genetic algorithm that evolves random strings toward a user-defined target. It demonstrates **fitness evaluation, selection, reproduction, and mutation** with a real-time Matplotlib graph.
 
 ## 📥 Installation
