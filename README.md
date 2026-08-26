@@ -10,13 +10,8 @@ Population → Fitness → Selection → Mutation → New Generation
      ↑                                           │
      └─────────────── Repeat ────────────────────┘
 ```
-## 📊 Visualization
-
-The live Matplotlib graph displays:
-
-* **Best Similarity** — fitness of the best organism.
-* **Average Similarity** — average fitness of the population.
-* **Generation** — current evolutionary cycle.
+## Matplotlib visualisation
+<img width="1366" height="655" alt="evolution1" src="https://github.com/user-attachments/assets/99eba968-3ea4-45f8-8770-21d6466c5b19" />
 
 ## ⚙️ Configuration
 
