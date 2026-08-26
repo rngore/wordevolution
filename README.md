@@ -6,9 +6,9 @@ The program first creates a population of random strings. Each string is compare
 This process repeats until the target is successfully evolved.
 
 ```text
-Random Population → Fitness → Select Elites → Mutate & Reproduce → New Generation
-                                      ↑                                  │
-                                      └──────────── Repeat ───────────────┘
+Population → Fitness → Selection → Mutation → New Generation
+     ↑                                           │
+     └─────────────── Repeat ────────────────────┘
 ```
 ## 📊 Visualization
 
