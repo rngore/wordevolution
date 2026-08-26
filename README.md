@@ -1,33 +1,23 @@
 # 🧬 Word Evolution
 A Python-based genetic algorithm that evolves random strings toward a user-defined target. It demonstrates **fitness evaluation, selection, reproduction, and mutation** with a real-time Matplotlib graph.
-
 ## 📥 Installation
-
 ### 1. Clone the repository
-
 ```bash
 git clone https://github.com/YOUR_USERNAME/word-evolution.git
 cd word-evolution
 ```
-
 ### 2. Install the dependency
-
 ```bash
 pip install matplotlib
 ```
-
 ### 3. Run the program
-
 ```bash
 python main.py
 ```
-
 Enter a target when prompted:
-
 ```text
 Target: HELLO WORLD
 ```
-
 ## 🧠 How It Works
 
 The program first creates a population of random strings. Each string is compared with the target and receives a **fitness score** based on how many characters are correct.
