@@ -33,7 +33,7 @@ Higher population sizes provide more candidates per generation, while the mutati
 ## 📥 Installation
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/word-evolution.git
+git clone https://github.com/rngore/wordevolution.git
 cd word-evolution
 ```
 ### 2. Install the dependency
