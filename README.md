@@ -35,10 +35,6 @@ cd word-evolution
 ```bash
 pip install matplotlib
 ```
-or 
-```bash
-pip install -r requirements.txt
-```
 ### 3. Run the program
 ```bash
 python main.py
