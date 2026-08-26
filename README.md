@@ -43,4 +43,4 @@ Enter a target when prompted:
 ```text
 Target: HELLO WORLD
 ```
-
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
