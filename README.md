@@ -12,6 +12,7 @@ Population → Fitness → Selection → Mutation → New Generation
 ```
 ## Matplotlib visualisation
 <img width="1366" height="655" alt="evolution1" src="https://github.com/user-attachments/assets/99eba968-3ea4-45f8-8770-21d6466c5b19" />
+
 ## Configuration
 You can adjust these values in `main.py`:
 ```python
