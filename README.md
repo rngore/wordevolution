@@ -1,5 +1,8 @@
 # Word Evolution
 A Python-based evolutionary computing project that simulates the process of natural selection by evolving a population of random strings toward a user-defined target. Each generation evaluates the fitness of its organisms, selects the best-performing individuals, and creates new variations through reproduction and mutation. Also includes a real-time Matplotlib visualization to track the progress of the best and average solutions across generations.
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange?logo=matplotlib&logoColor=white)](https://matplotlib.org/)
+[![Genetic Algorithm](https://img.shields.io/badge/Algorithm-Genetic%20Algorithm-purple)](https://en.wikipedia.org/wiki/Genetic_algorithm)
 ## How does it work?
 The program first creates a population of random strings. Each string is compared with the target and receives a **score** based on how many characters are correct. The best-performing strings, called **elites**, are selected to create the next generation. Their characters are copied, with a small chance of random mutation.
 
