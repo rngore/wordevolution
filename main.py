@@ -5,7 +5,6 @@ import matplotlib.pyplot as plt
 
 char = string.ascii_uppercase + " " #This will help to generate all 24 uppercased alphabets and a Space (" ")
                                     #But not puntuation, numbers, etc.
-
 def genword(length): #Generate a random word of length
     return ''.join(random.choice(char) for _ in range(length)) #integrate all random char into a generated word
 
