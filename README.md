@@ -1,4 +1,4 @@
-# Word Evolutio
+# Word Evolution
 A Python based evolutionary computing project that simulates the process of natural selection by evolving a population of random strings toward a user defined target. Each generation evaluates the fitness of its organisms, selects the best performing individuals, and creates new variations through reproduction and mutation. Also includes a real time Matplotlib visualization to track the progress of the best and average solutions across generations.
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
