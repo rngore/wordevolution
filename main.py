@@ -22,9 +22,9 @@ def main():
     elite_count = 10 #selecting best 10 from population_size
     inp_mutrate = (input("Mutation rate (Default: 10%): ")).strip(' %')#x% chance of randomly being mutated
     if inp_mutrate == '':
-        variation_rate = 0.10
+        variation_rate = 0.10 #default variation rate
     else:
-        variation_rate = int(inp_mutrate) / 100
+        variation_rate = int(inp_mutrate) / 100 #user prompted variation rate
     population = [] 
     for _ in range(population_size):
         population.append(genword(len(target))) #Add 100 organisms to first poplation w.r.t other
