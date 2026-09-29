@@ -18,13 +18,13 @@ Population → Fitness → Selection → Mutation → New Generation
 <img width="1366" height="655" alt="evolution1" src="https://github.com/user-attachments/assets/99eba968-3ea4-45f8-8770-21d6466c5b19" />
 
 ## Configuration
-You can adjust these values in `main.py`:
+You can tweak these values in `main.py` or you can change the `variation_rate` when running the simulation:
 ```python
-population_size = 100
-elite_count = 10
-mutation_rate = 0.10
+population_size = 100 #number of organisms in each generation
+elite_count = 10 #top_10 selected organisms based on similarites
+variation_rate = 0.10 #mutation rate
 ```
-Higher population sizes provide more candidates per generation, while the mutation rate controls how much randomness is introduced.
+Higher population sizes provide more candidates per generation, while the mutation rate/variation rate controls how much randomness is introduced.
 ## Installation
 ### 1. Clone the repository
 ```bash
