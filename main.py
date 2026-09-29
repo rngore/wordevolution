@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 
 char = string.ascii_uppercase + " " #This will help to generate all 24 uppercased alphabets and a Space (" ")
                                     #But not puntuation, numbers, etc.
+
 def genword(length): #Generate a random word of length
     return ''.join(random.choice(char) for _ in range(length)) #integrate all random char into a generated word
 
@@ -19,7 +20,11 @@ def main():
     target = input("Target: ").upper() #TARGET
     population_size = 100 #no. of organisms in each generation
     elite_count = 10 #selecting best 10 from population_size
-    variation_rate = 0.10 #10% chance of randomly being mutated
+    inp_mutrate = (input("Mutation rate (Default: 10%): ")).strip(' %')#x% chance of randomly being mutated
+    if inp_mutrate == '':
+        variation_rate = 0.10
+    else:
+        variation_rate = int(inp_mutrate) / 100
     population = [] 
     for _ in range(population_size):
         population.append(genword(len(target))) #Add 100 organisms to first poplation w.r.t other
