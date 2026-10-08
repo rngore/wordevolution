@@ -64,4 +64,3 @@ def test_generate_population_empty_target():
 
     assert len(population) == 5
     assert all(word == "" for word in population)
-
