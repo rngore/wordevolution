@@ -1,5 +1,5 @@
 import pytest
-from project import genword, similarity, generate_population, get_average_similarity, reproduce, char
+from main import genword, similarity, generate_population, get_average_similarity, reproduce, char
 
 
 def test_genword():
